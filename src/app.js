@@ -39,7 +39,7 @@ bot.onText(/\/start/, async (msg) => {
 
     await ensureUserExists(userId, username);
 
-    const link = `http://r99992dx.beget.tech/?user_id=${userId}`;
+    const link = `https://aperms-wq.github.io/Water.io//?user_id=${userId}`;
     bot.sendPhoto(chatId, 'https://ideogram.ai/assets/progressive-image/balanced/response/jd7xFqMLSaSerpA8uQl1Dw', {
         caption: 'Время бежит как вода, так что не теряй ни время, ни воду!\nДобро пожаловать в Water Game!',
         reply_markup: {
